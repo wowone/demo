@@ -1,0 +1,131 @@
+{
+    "iOS": {
+        "install2access": {
+            "default": 0.14,
+            "2019-12-01": 0.18,
+            "2020-01-01": 0.16
+        },
+        "commission": [0.7, 0.85],
+        "products": [
+            {
+                "product_id": "1month_trial",
+                "price": 5.99,
+                "share": 0.17,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1year_trial",
+                "price": 19.99,
+                "share": 0.63,
+                "trial2purchase": 0.5,
+                "actual": true
+            },
+            {
+                "product_id": "1year_instant",
+                "price": 14.99,
+                "share": 0.20,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1month_trial_old",
+                "price": 2.99
+            },
+            {
+                "product_id": "1year_trial_old",
+                "price": 14.99
+            },
+            {
+                "product_id": "1year_instant_old",
+                "price": 9.99
+            }
+        ]
+    },
+    "Android": {
+        "install2access": {
+            "default": 0.09,
+            "2019-12-01": 0.12,
+            "2020-01-01": 0.11
+        },
+        "commission": [0.7, 0.85],
+        "products": [
+            {
+                "product_id": "1month_trial",
+                "price": 5.99,
+                "share": 0.35,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1year_trial",
+                "price": 19.99,
+                "share": 0.60,
+                "trial2purchase": 0.5,
+                "actual": true
+            },
+            {
+                "product_id": "1year_instant",
+                "price": 14.99,
+                "share": 0.05,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1month_trial_old",
+                "price": 2.99
+            },
+            {
+                "product_id": "1year_trial_old",
+                "price": 14.99
+            },
+            {
+                "product_id": "1year_instant_old",
+                "price": 9.99
+            }
+        ]
+    },
+    "Web": {
+        "install2access": {
+            "default": 0.0008,
+            "2019-12-01": 0.001,
+            "2020-01-01": 0.0009
+        },
+        "commission": [0.8, 0.8],
+        "products": [
+            {
+                "product_id": "1month_trial",
+                "price": 5.99,
+                "share": 0.17,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1year_trial",
+                "price": 19.99,
+                "share": 0.63,
+                "trial2purchase": 0.5,
+                "actual": true
+            },
+            {
+                "product_id": "1year_instant",
+                "price": 14.99,
+                "share": 0.20,
+                "trial2purchase": 1,
+                "actual": true
+            },
+            {
+                "product_id": "1month_trial_old",
+                "price": 2.99
+            },
+            {
+                "product_id": "1year_trial_old",
+                "price": 14.99
+            },
+            {
+                "product_id": "1year_instant_old",
+                "price": 9.99
+            }
+        ]
+    }
+}
